@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1217</width>
-    <height>603</height>
+    <width>1262</width>
+    <height>784</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,10 +17,10 @@
    <widget class="QWidget" name="horizontalLayoutWidget">
     <property name="geometry">
      <rect>
-      <x>110</x>
+      <x>120</x>
       <y>20</y>
-      <width>1031</width>
-      <height>162</height>
+      <width>931</width>
+      <height>221</height>
      </rect>
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout">
@@ -29,7 +29,7 @@
        <item row="0" column="0">
         <widget class="QLabel" name="label">
          <property name="text">
-          <string>Kondensator ceramiczny</string>
+          <string>Ceramiczny</string>
          </property>
         </widget>
        </item>
@@ -40,6 +40,9 @@
          </property>
         </widget>
        </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="Kon1_1"/>
+       </item>
        <item row="2" column="0">
         <widget class="QLabel" name="label_15">
          <property name="text">
@@ -48,7 +51,7 @@
         </widget>
        </item>
        <item row="2" column="1">
-        <widget class="QLineEdit" name="lineEdit_6"/>
+        <widget class="QLineEdit" name="Kon1_2"/>
        </item>
        <item row="3" column="0">
         <widget class="QLabel" name="label_16">
@@ -58,7 +61,7 @@
         </widget>
        </item>
        <item row="3" column="1">
-        <widget class="QLineEdit" name="lineEdit_10"/>
+        <widget class="QLineEdit" name="Kon1_3"/>
        </item>
        <item row="4" column="0">
         <widget class="QLabel" name="label_17">
@@ -68,17 +71,38 @@
         </widget>
        </item>
        <item row="4" column="1">
-        <widget class="QLineEdit" name="lineEdit_11"/>
+        <widget class="QLineEdit" name="Kon1_4"/>
        </item>
-       <item row="5" column="0">
+       <item row="6" column="0">
         <widget class="QPushButton" name="pushButton">
          <property name="text">
           <string>Oblicz</string>
          </property>
         </widget>
        </item>
-       <item row="1" column="1">
-        <widget class="QLineEdit" name="lineEdit"/>
+       <item row="6" column="1">
+        <widget class="QLabel" name="label_26">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="label_6">
+         <property name="text">
+          <string>Częstotliwość</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="1">
+        <widget class="QLabel" name="imp1">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="1">
+        <widget class="QLineEdit" name="ff1"/>
        </item>
       </layout>
      </item>
@@ -87,7 +111,7 @@
        <item row="0" column="0">
         <widget class="QLabel" name="label_2">
          <property name="text">
-          <string>Kondensator elektrolityczny</string>
+          <string>Elektrolityczny</string>
          </property>
         </widget>
        </item>
@@ -99,7 +123,7 @@
         </widget>
        </item>
        <item row="1" column="1">
-        <widget class="QLineEdit" name="lineEdit_3"/>
+        <widget class="QLineEdit" name="Kon2_1"/>
        </item>
        <item row="2" column="0">
         <widget class="QLabel" name="label_11">
@@ -109,7 +133,7 @@
         </widget>
        </item>
        <item row="2" column="1">
-        <widget class="QLineEdit" name="lineEdit_8"/>
+        <widget class="QLineEdit" name="Kon2_2"/>
        </item>
        <item row="3" column="0">
         <widget class="QLabel" name="label_20">
@@ -119,7 +143,14 @@
         </widget>
        </item>
        <item row="3" column="1">
-        <widget class="QLineEdit" name="lineEdit_14"/>
+        <widget class="QLineEdit" name="Kon2_3"/>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="label_10">
+         <property name="text">
+          <string>Częstotliwość</string>
+         </property>
+        </widget>
        </item>
        <item row="5" column="0">
         <widget class="QPushButton" name="pushButton_3">
@@ -128,12 +159,22 @@
          </property>
         </widget>
        </item>
-       <item row="4" column="0">
-        <widget class="QLabel" name="label_21">
+       <item row="5" column="1">
+        <widget class="QLabel" name="label_27">
          <property name="text">
           <string/>
          </property>
         </widget>
+       </item>
+       <item row="6" column="1">
+        <widget class="QLabel" name="imp2">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLineEdit" name="ff2"/>
        </item>
       </layout>
      </item>
@@ -142,7 +183,7 @@
        <item row="0" column="0">
         <widget class="QLabel" name="label_4">
          <property name="text">
-          <string>Kondensator foliowy</string>
+          <string>Foliowy</string>
          </property>
         </widget>
        </item>
@@ -154,7 +195,7 @@
         </widget>
        </item>
        <item row="1" column="1">
-        <widget class="QLineEdit" name="lineEdit_4"/>
+        <widget class="QLineEdit" name="Kon3_1"/>
        </item>
        <item row="2" column="0">
         <widget class="QLabel" name="label_12">
@@ -164,7 +205,7 @@
         </widget>
        </item>
        <item row="2" column="1">
-        <widget class="QLineEdit" name="lineEdit_9"/>
+        <widget class="QLineEdit" name="Kon3_2"/>
        </item>
        <item row="3" column="0">
         <widget class="QLabel" name="label_22">
@@ -174,7 +215,17 @@
         </widget>
        </item>
        <item row="3" column="1">
-        <widget class="QLineEdit" name="lineEdit_16"/>
+        <widget class="QLineEdit" name="Kon3_3"/>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="label_18">
+         <property name="text">
+          <string>Częstotliwość</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLineEdit" name="ff3"/>
        </item>
        <item row="5" column="0">
         <widget class="QPushButton" name="pushButton_4">
@@ -183,8 +234,15 @@
          </property>
         </widget>
        </item>
-       <item row="4" column="0">
-        <widget class="QLabel" name="label_23">
+       <item row="5" column="1">
+        <widget class="QLabel" name="label_28">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="1">
+        <widget class="QLabel" name="imp3">
          <property name="text">
           <string/>
          </property>
@@ -197,36 +255,9 @@
        <item row="0" column="0">
         <widget class="QLabel" name="label_5">
          <property name="text">
-          <string>Kondensator tantalowy</string>
+          <string>Tantalowy</string>
          </property>
         </widget>
-       </item>
-       <item row="2" column="0">
-        <widget class="QLabel" name="label_9">
-         <property name="text">
-          <string>A</string>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="0">
-        <widget class="QLabel" name="label_13">
-         <property name="text">
-          <string>d</string>
-         </property>
-        </widget>
-       </item>
-       <item row="4" column="0">
-        <widget class="QLabel" name="label_24">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="1">
-        <widget class="QLineEdit" name="lineEdit_5"/>
-       </item>
-       <item row="3" column="1">
-        <widget class="QLineEdit" name="lineEdit_18"/>
        </item>
        <item row="1" column="0">
         <widget class="QLabel" name="label_25">
@@ -236,7 +267,30 @@
         </widget>
        </item>
        <item row="1" column="1">
-        <widget class="QLineEdit" name="lineEdit_20"/>
+        <widget class="QLineEdit" name="Kon4_1"/>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_9">
+         <property name="text">
+          <string>A</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLineEdit" name="Kon4_2"/>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="label_13">
+         <property name="text">
+          <string>d</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLineEdit" name="Kon4_3"/>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLineEdit" name="ff4"/>
        </item>
        <item row="5" column="0">
         <widget class="QPushButton" name="pushButton_5">
@@ -245,73 +299,47 @@
          </property>
         </widget>
        </item>
+       <item row="5" column="1">
+        <widget class="QLabel" name="label_29">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="label_19">
+         <property name="text">
+          <string>Częstotliwość</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="1">
+        <widget class="QLabel" name="imp4">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
       </layout>
      </item>
     </layout>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>340</x>
-      <y>180</y>
+      <x>310</x>
+      <y>240</y>
       <width>531</width>
-      <height>532</height>
+      <height>501</height>
      </rect>
     </property>
     <layout class="QFormLayout" name="formLayout_4">
      <item row="0" column="0">
       <widget class="QLabel" name="label_3">
        <property name="text">
-        <string>Kondensator elektrolityczny</string>
+        <string/>
        </property>
       </widget>
-     </item>
-     <item row="2" column="0">
-      <widget class="QLabel" name="label_6">
-       <property name="text">
-        <string>TextLabel</string>
-       </property>
-      </widget>
-     </item>
-     <item row="3" column="0">
-      <widget class="QLabel" name="label_10">
-       <property name="text">
-        <string>TextLabel</string>
-       </property>
-      </widget>
-     </item>
-     <item row="3" column="1">
-      <widget class="QLineEdit" name="lineEdit_7"/>
-     </item>
-     <item row="4" column="0">
-      <widget class="QLabel" name="label_18">
-       <property name="text">
-        <string>TextLabel</string>
-       </property>
-      </widget>
-     </item>
-     <item row="4" column="1">
-      <widget class="QLineEdit" name="lineEdit_12"/>
-     </item>
-     <item row="5" column="0">
-      <widget class="QLabel" name="label_19">
-       <property name="text">
-        <string>TextLabel</string>
-       </property>
-      </widget>
-     </item>
-     <item row="5" column="1">
-      <widget class="QLineEdit" name="lineEdit_13"/>
-     </item>
-     <item row="6" column="0">
-      <widget class="QPushButton" name="pushButton_2">
-       <property name="text">
-        <string>Oblicz</string>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="1">
-      <widget class="QLineEdit" name="lineEdit_2"/>
      </item>
      <item row="1" column="0">
       <widget class="QGroupBox" name="groupBox">
@@ -494,6 +522,24 @@
               </item>
              </layout>
             </item>
+            <item row="2" column="1">
+             <layout class="QHBoxLayout" name="horizontalLayout_26">
+              <item>
+               <widget class="QLabel" name="label_64">
+                <property name="text">
+                 <string>Napięcie przebicia 6 [V]</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="N6">
+                <property name="text">
+                 <string>0</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
             <item row="2" column="0">
              <layout class="QHBoxLayout" name="horizontalLayout_23">
               <item>
@@ -548,24 +594,6 @@
               </item>
              </layout>
             </item>
-            <item row="2" column="1">
-             <layout class="QHBoxLayout" name="horizontalLayout_26">
-              <item>
-               <widget class="QLabel" name="label_64">
-                <property name="text">
-                 <string>Napięcie przebicia 6 [V]</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QLineEdit" name="N6">
-                <property name="text">
-                 <string>0</string>
-                </property>
-               </widget>
-              </item>
-             </layout>
-            </item>
             <item row="0" column="1">
              <layout class="QHBoxLayout" name="horizontalLayout_27">
               <item>
@@ -585,6 +613,40 @@
              </layout>
             </item>
            </layout>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QFormLayout" name="formLayout_7">
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_21">
+            <property name="text">
+             <string>Impedancja 1</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="impdane1"/>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_23">
+            <property name="text">
+             <string>Impedancja 2</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="impdane2"/>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="label_24">
+            <property name="text">
+             <string>Impedancja 3</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="impdane3"/>
           </item>
          </layout>
         </item>
@@ -611,13 +673,6 @@
             </property>
            </widget>
           </item>
-          <item row="0" column="1">
-           <widget class="QLabel" name="poj_label_2">
-            <property name="text">
-             <string/>
-            </property>
-           </widget>
-          </item>
           <item row="1" column="0">
            <widget class="QLabel" name="label_67">
             <property name="text">
@@ -626,7 +681,28 @@
            </widget>
           </item>
           <item row="1" column="1">
-           <widget class="QLabel" name="nap_label_2">
+           <widget class="QLabel" name="wynik2">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLabel" name="wynik1">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="label_30">
+            <property name="text">
+             <string>Impedancja zastepcza to</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLabel" name="impwynik">
             <property name="text">
              <string/>
             </property>
@@ -645,7 +721,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1217</width>
+     <width>1262</width>
      <height>22</height>
     </rect>
    </property>
